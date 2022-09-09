@@ -1,0 +1,45 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<!--tells the browser which version of html the page is written in-->
+<html lang="en">
+  <!--top level element of html,lang is the language and it is english-->
+  <head>
+    <!--iclude three meta data tags and 1 title tag-->
+    <meta charset="UTF-8" />
+    <!--html charachter encoding-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--tells the internet browser to use the most recent rendering engine-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--tells the browser how to resize the page-->
+    <title>Digital Clock</title>
+    <!--sets the title of the page-->
+
+    <link rel="stylesheet" href="style.css" />
+    <!--linking the css file to the html file-->
+  </head>
+  <body>
+    <h2>Digital Clock</h2>
+    <!--heading-->
+    <div class="clock">
+      <!--div with a class of clock-->
+      <div>
+        <span id="hour">00</span>
+        <span class="text">Hours</span>
+      </div>
+      <div>
+        <span id="minutes">00</span>
+        <span class="text">Minutes</span>
+      </div>
+      <div>
+        <span id="seconds">00</span>
+        <span class="text">Seconds</span>
+      </div>
+      <div>
+        <span id="ampm">AM</span>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
